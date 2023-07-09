@@ -21,7 +21,7 @@ Team Members
 ## Tools and Techniques Used
 - Implemented CNN using Tensorflow, to arrange shuffled pieces of face and landmark images into correct sequence.
 - Performed Zero Padding to preserve all the edge features of the puzzle pieces. The model gave 88% accuracy for faces and 82% accuracy for landmarks.
-- After trying many architectures we finally used 3 hidden dense layers, with relu as activation function. 
+- After trying many architectures we finally used 3 Convolutional hidden dense layers, with relu as activation function. 
 - We performed Batch Normalization after passing image through each convolution layer.
 - Performed Max Pooling of Pool Size (2,2) after each Batch Normalisation Step.
 
